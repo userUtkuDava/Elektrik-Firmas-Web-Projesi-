@@ -1,0 +1,70 @@
+.footer-text {
+    margin-top: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(255 255 255), 0 0 25px rgb(250 244 255);
+}
+
+
+
+.footer-mail {}
+
+.footer-mail input {
+
+    width: 250px;
+    padding: 10px 12px;
+    border: solid 2px rgb(255, 0, 0);
+    ;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    height: 55px;
+}
+
+.footer-mail input::placeholder {
+    color: rgb(215, 237, 249);
+
+}
+
+.footer-mail button {
+    padding: 10px 12px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    ;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 55px;
+    width: 60px;
+    font-size: 22px;
+}
+
+.mail-block {
+    margin-top: 20px;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-icons {
+    color: red;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
+.footer-about-info-mail {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}

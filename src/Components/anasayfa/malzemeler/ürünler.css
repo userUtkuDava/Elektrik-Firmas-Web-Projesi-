@@ -1,0 +1,20 @@
+.malzemeler {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+}
+
+.urunler {
+    width: 18rem;
+    height: auto;
+    margin: 10px 5px;
+}
+
+.baslik {
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+}

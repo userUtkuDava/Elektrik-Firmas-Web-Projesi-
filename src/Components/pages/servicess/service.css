@@ -1,0 +1,108 @@
+.aciklama {}
+
+.hizmetler {}
+
+.kutu {
+    width: 24rem;
+    height: 30rem;
+    border: solid 1px rgb(241, 238, 238);
+    border-radius: 10px;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+    padding: 0px;
+    margin-top: 20px;
+
+
+
+}
+
+.box-img {
+    position: relative;
+    display: flex;
+    background-color: white;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box-img h2 {
+    position: absolute;
+    top: 30px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    display: none;
+    border-radius: 3px;
+}
+
+
+.box-img img {
+    transition: all;
+    transition-duration: 3s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.kutu i {
+    font-size: 35px;
+    color: rgb(207, 205, 205);
+}
+
+
+
+.kutu:hover {
+    border: solid 1px red;
+}
+
+.kutu:hover p {}
+
+.wiewmorebox {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5%;
+}
+
+.wiewmorebtn {
+    display: flex;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    transition: 0s;
+    border: none;
+    padding: 10px 16px;
+
+}
+
+.hizmetler ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hizmetler i {
+    font-size: 20px;
+    color: red;
+}
+
+.hizmetler li {
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+
+}
+
+.title-service {
+    margin-left: 30px;
+}

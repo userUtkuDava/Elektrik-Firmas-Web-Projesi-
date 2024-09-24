@@ -1,0 +1,86 @@
+.main {
+
+    position: absolute;
+}
+
+.a {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding: 2rem;
+
+
+}
+
+.b {
+    height: auto;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    height: auto;
+
+
+}
+
+.markalar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.marka {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 0px 0px #d1d1d1;
+
+}
+
+.marka p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20%;
+    font-weight: 700;
+    border-radius: 5px;
+
+    color: black;
+
+
+}
+
+.markalar img {
+    width: 14rem;
+    height: 14rem;
+    box-shadow: 2px 2px 2px 2px rgb(184, 183, 183);
+    margin-top: 50px;
+    margin-left: 50px;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 10px 8px 10px 5px rgb(200, 240, 245);
+    border-radius: 50%;
+    scale: 0.9;
+
+
+}
+
+.markalar img:hover {
+    border: solid 1px red;
+    transform: translateY(-10px);
+    scale: 1;
+}
+
+.markalar img:hover {
+    border: solid 1px red;
+    transform: translateY(-10px);
+    scale: 1;
+}
+
+.tarih {
+    font-size: 18px;
+    color: crimson;
+    font-weight: 500;
+
+}

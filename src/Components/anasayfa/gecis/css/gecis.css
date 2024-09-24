@@ -1,0 +1,10 @@
+.gecis {
+    margin-top: 90px;
+    width: 100%;
+    height: 36px;
+    background-color: red;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

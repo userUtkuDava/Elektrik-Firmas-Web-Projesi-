@@ -1,0 +1,80 @@
+#slide-aciklama h3 {
+    color: rgba(240, 230, 230, 0);
+}
+
+#slide-aciklama p {
+    color: rgba(240, 230, 230, 0);
+}
+
+#slide-1 {
+    position: relative;
+}
+
+.anabaslik {
+    position: absolute;
+    top: 20%;
+    z-index: 5;
+    left: 20%;
+}
+
+.anabaslik h1 {
+    font-size: 5em
+        /* 16px * 2 = 32px */
+    ;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.baslik-aciklamasi {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vurgubaslik {
+    color: red;
+}
+
+
+
+
+@media screen and (max-width:1392px) {
+    .anabaslik h1 {
+        font-size: 3em
+            /* 16px * 2 = 32px */
+        ;
+    }
+
+    .baslik-aciklamasi {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .anabaslik h1 {
+        font-size: 2em
+            /* 16px * 2 = 32px */
+        ;
+    }
+
+    .baslik-aciklamasi {
+        font-size: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .anabaslik {
+        font-size: 0.8em
+            /* 16px * 2 = 32px */
+        ;
+    }
+
+    .baslik-aciklamasi {
+        font-size: 0.6rem;
+    }
+}

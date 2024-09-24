@@ -1,0 +1,146 @@
+.blog-main {
+    height: auto;
+    margin-bottom: 50px;
+
+}
+
+.content-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+
+.blog-img {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem;
+
+}
+
+.blog-img img {
+    width: 90%;
+    height: 80%;
+    box-shadow: 0px 0px 10px 2px rgb(160, 159, 159);
+    margin-bottom: 30px;
+
+}
+
+.blog-detail {
+
+    width: 70%;
+    padding: 2rem;
+    margin: 0 auto;
+
+
+}
+
+
+
+.blg-btn {
+    background-color: rgb(224, 124, 17);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 20px;
+    border-radius: 5px;
+    border: solid 3px #dfdfdf;
+}
+
+/* yazi içerikleri */
+.catagory {
+    margin: 10px;
+    color: #e91e27;
+}
+
+
+
+.baslik {
+    margin: 10px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.blog-tarih {
+    margin: 10px;
+    font-size: 15px;
+    color: black;
+
+}
+
+.metin {
+    margin: 10px;
+    line-height: 40px;
+}
+
+.user-name {
+    margin: 15px 10px;
+    color: rgb(89, 86, 86);
+    font-weight: 300;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 3px 0px gray;
+
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail {
+    transition: all 1s ease-in-out;
+}
+
+.detail:hover {
+    color: orange;
+}
+
+.user-box {
+    display: flex;
+    width: auto;
+}
+
+.arrow {
+
+    margin: 20px 30px 22px 5px;
+    color: #e91e27;
+
+}
+
+
+/* üzerine gelince stil */
+.blg-btn:hover {
+    background-color: rgb(189, 99, 3);
+}
+
+.blog-img:hover {
+    transform: translateY(-10px)
+}
+
+/* mobile tasarım kdoları  */
+@media only screen and (max-width: 768px) {
+
+
+    .blog-img {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+        padding: 1rem;
+        margin: 0 auto;
+
+    }
+
+}
